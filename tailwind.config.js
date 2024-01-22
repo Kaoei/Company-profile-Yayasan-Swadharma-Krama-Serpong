@@ -5,8 +5,11 @@ export default {
       "./resources/**/*.js",
       "./resources/**/*.vue",
     ],
+    daisyui: {
+      themes: false,
+    },
     theme: {
       extend: {},
     },
     plugins: [require("daisyui")],
-  }
+}
